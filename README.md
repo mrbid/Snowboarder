@@ -20,7 +20,7 @@ https://snapcraft.io/snowboarder
 ---
 
 ### AppImage
-https://github.com/mrbid/Snowling/raw/main/Snowboarder-x86_64.AppImage
+https://github.com/mrbid/Snowboarder/raw/main/Snowboarder-x86_64.AppImage
 
 ---
 
