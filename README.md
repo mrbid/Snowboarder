@@ -7,6 +7,8 @@ Use the keyboard arrow keys to move from left to right.
 
 The game never ends, score is tallied in the program title bar and console window if available.
 
+You can press R to pick fresh random seed.
+
 ---
 
 ### Video
@@ -30,7 +32,7 @@ https://github.com/mrbid/Snowboarder/raw/main/snowboarder
 ---
 
 ### [ARM64] Linux Binary (Raspbian 10)
-Coming soon.
+https://github.com/mrbid/Snowboarder/raw/main/snowboarder_arm
 
 ---
 
