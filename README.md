@@ -10,7 +10,7 @@ The game never ends, score is tallied in the program title bar and console windo
 ---
 
 ### Video
-Coming soon.
+https://youtu.be/qV6TNY7SgIU
 
 ---
 
