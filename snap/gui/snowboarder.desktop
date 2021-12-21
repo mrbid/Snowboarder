@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Snowboarder
+Comment=A simple 3D snowboarding game.
+StartupNotify=false
+Exec=snowboarder
+Icon=${SNAP}/meta/gui/snowboarder.png
+Terminal=false
+Type=Application
+Categories=Application;Game;ArcadeGame;
