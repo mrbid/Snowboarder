@@ -1,0 +1,41 @@
+name: snowboarder
+base: core20
+version: '1.0'
+summary: A simple 3D snowboarding game.
+description: |
+  Use your keyboard arrow keys to move from left to right.
+
+grade: stable
+confinement: strict
+
+architectures:
+  - build-on: amd64
+    run-on: amd64
+  - build-on: arm64
+    run-on: arm64
+  - build-on: armhf
+    run-on: armhf
+
+apps:
+  snowboarder:
+    extensions: [gnome-3-38]
+    command: snowboarder
+    plugs:
+    - desktop
+    - desktop-legacy
+    - gsettings
+    - opengl
+    - wayland
+    - x11
+    - joystick
+
+parts:
+  snowboarder:
+    source: https://github.com/mrbid/Snowboarder
+    source-type: git
+    plugin: make
+    build-packages:
+    - libglfw3-dev
+    stage-packages:
+    - libglfw3
+    - libgles2
