@@ -5,6 +5,8 @@ A simple 3D snowboarding game.
 
 Use the keyboard arrow keys to move from left to right.
 
+The game never ends, score is tallied in the program title bar or console window.
+
 ---
 
 ### Video
