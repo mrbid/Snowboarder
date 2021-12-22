@@ -7,7 +7,7 @@ Use the keyboard arrow keys to move from left to right.
 
 The game never ends, score is tallied in the program title bar and console window if available.
 
-You can press R to pick fresh random seed.
+You can press R to pick fresh random seed any time during gameplay.
 
 ---
 
