@@ -67,3 +67,4 @@ sudo make install /usr/bin
 
 ### Attributions
 http://www.forrestwalter.com/icons/<br>
+https://fontawesome.com/v5.15/icons/skull-crossbones<br>
