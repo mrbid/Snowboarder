@@ -1,8 +1,7 @@
 #ifndef RES_H
 #define RES_H
 
-// Graphical Attribution
-// alpinebg: https://unsplash.com/photos/N_MXyBUV5hU
+// Attribution: http://www.forrestwalter.com/icons/
 
 #pragma GCC diagnostic ignored "-Wtrigraphs"
 
