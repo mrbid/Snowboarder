@@ -1,6 +1,8 @@
 # Snowboarder
 A simple 3D snowboarding game.
 
+![Snowboarder Game Screenshot](https://dashboard.snapcraft.io/site_media/appmedia/2021/12/Screenshot_2021-12-21_06-31-22.png)
+
 ### How to play
 
 Use the keyboard arrow keys to move from left to right.
