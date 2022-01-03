@@ -702,7 +702,8 @@ void main_loop()
         c3.x = cn.x;
         c3.y = cn.y;
         c3.z = cn.z;
-        esBind(GL_ARRAY_BUFFER, &mdlTunnel.cid, tunnel_colors, sizeof(tunnel_colors), GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, mdlTunnel.cid);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(tunnel_colors), tunnel_colors, GL_STATIC_DRAW);
 
         // reposition next tunnel angle
         const f32 r1 = esRandFloat(-6.f, 6.f);
@@ -711,12 +712,13 @@ void main_loop()
         {
             if(tunnel_vertices[i+2] < -91.f)
             {
-                tunnel_vertices[i] += -12.f * sinf(r1);
-                tunnel_vertices[i+1] += -12.f * cosf(r1);
+                tunnel_vertices[i] += -12.f * sin(r1);
+                tunnel_vertices[i+1] += -12.f * cos(r1);
                 tunnel_vertices[i+2] = r2;
             }
         }
-        esBind(GL_ARRAY_BUFFER, &mdlTunnel.vid, tunnel_vertices, sizeof(tunnel_vertices), GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, mdlTunnel.vid);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(tunnel_vertices), tunnel_vertices, GL_STATIC_DRAW);
 
         // next state
         state = 1;
