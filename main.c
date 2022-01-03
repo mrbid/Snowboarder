@@ -712,8 +712,8 @@ void main_loop()
         {
             if(tunnel_vertices[i+2] < -91.f)
             {
-                tunnel_vertices[i] += -12.f * sin(r1);
-                tunnel_vertices[i+1] += -12.f * cos(r1);
+                tunnel_vertices[i] += -12.f * sinf(r1);
+                tunnel_vertices[i+1] += -12.f * cosf(r1);
                 tunnel_vertices[i+2] = r2;
             }
         }
