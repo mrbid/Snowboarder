@@ -95,7 +95,7 @@ ESModel mdlMboarder;
 ESModel mdlRboarder;
 
 // game vars
-float dt = 0;
+f32 dt = 0;
 double rt = 0;
 uint state = 3;
 f32 camdist = -5.0f;
