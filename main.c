@@ -950,103 +950,103 @@ int main(int argc, char** argv)
     esBind(GL_ARRAY_BUFFER, &mdlTunnel.vid, tunnel_vertices, sizeof(tunnel_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlTunnel.nid, tunnel_normals, sizeof(tunnel_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlTunnel.cid, tunnel_colors, sizeof(tunnel_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlTunnel.iid, tunnel_indices, sizeof(tunnel_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlTunnel.iid, tunnel_indices, sizeof(tunnel_indices), GL_STATIC_DRAW);
 
     // ***** BIND DEAD *****
     esBind(GL_ARRAY_BUFFER, &mdlDead.vid, dead_vertices, sizeof(dead_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlDead.nid, dead_normals, sizeof(dead_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlDead.cid, dead_colors, sizeof(dead_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlDead.iid, dead_indices, sizeof(dead_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlDead.iid, dead_indices, sizeof(dead_indices), GL_STATIC_DRAW);
     
     // ***** BIND THREE *****
     esBind(GL_ARRAY_BUFFER, &mdlThree.vid, three_vertices, sizeof(three_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlThree.nid, three_normals, sizeof(three_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlThree.cid, three_colors, sizeof(three_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlThree.iid, three_indices, sizeof(three_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlThree.iid, three_indices, sizeof(three_indices), GL_STATIC_DRAW);
 
     // ***** BIND TWO *****
     esBind(GL_ARRAY_BUFFER, &mdlTwo.vid, two_vertices, sizeof(two_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlTwo.nid, two_normals, sizeof(two_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlTwo.cid, two_colors, sizeof(two_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlTwo.iid, two_indices, sizeof(two_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlTwo.iid, two_indices, sizeof(two_indices), GL_STATIC_DRAW);
 
     // ***** BIND ONE *****
     esBind(GL_ARRAY_BUFFER, &mdlOne.vid, one_vertices, sizeof(one_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlOne.nid, one_normals, sizeof(one_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlOne.cid, one_colors, sizeof(one_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlOne.iid, one_indices, sizeof(one_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlOne.iid, one_indices, sizeof(one_indices), GL_STATIC_DRAW);
 
     // ***** BIND LSLICK *****
     esBind(GL_ARRAY_BUFFER, &mdlLslick.vid, lslick_vertices, sizeof(lslick_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLslick.nid, lslick_normals, sizeof(lslick_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLslick.cid, lslick_colors, sizeof(lslick_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlLslick.iid, lslick_indices, sizeof(lslick_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlLslick.iid, lslick_indices, sizeof(lslick_indices), GL_STATIC_DRAW);
 
     // ***** BIND MSLICK *****
     esBind(GL_ARRAY_BUFFER, &mdlMslick.vid, mslick_vertices, sizeof(mslick_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMslick.nid, mslick_normals, sizeof(mslick_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMslick.cid, mslick_colors, sizeof(mslick_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlMslick.iid, mslick_indices, sizeof(mslick_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlMslick.iid, mslick_indices, sizeof(mslick_indices), GL_STATIC_DRAW);
 
     // ***** BIND RSLICK *****
     esBind(GL_ARRAY_BUFFER, &mdlRslick.vid, rslick_vertices, sizeof(rslick_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRslick.nid, rslick_normals, sizeof(rslick_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRslick.cid, rslick_colors, sizeof(rslick_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlRslick.iid, rslick_indices, sizeof(rslick_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlRslick.iid, rslick_indices, sizeof(rslick_indices), GL_STATIC_DRAW);
 
     // ***** BIND LGEM *****
     esBind(GL_ARRAY_BUFFER, &mdlLgem.vid, lgem_vertices, sizeof(lgem_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLgem.nid, lgem_normals, sizeof(lgem_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLgem.cid, lgem_colors, sizeof(lgem_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlLgem.iid, lgem_indices, sizeof(lgem_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlLgem.iid, lgem_indices, sizeof(lgem_indices), GL_STATIC_DRAW);
 
     // ***** BIND MGEM *****
     esBind(GL_ARRAY_BUFFER, &mdlMgem.vid, mgem_vertices, sizeof(mgem_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMgem.nid, mgem_normals, sizeof(mgem_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMgem.cid, mgem_colors, sizeof(mgem_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlMgem.iid, mgem_indices, sizeof(mgem_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlMgem.iid, mgem_indices, sizeof(mgem_indices), GL_STATIC_DRAW);
 
     // ***** BIND RGEM *****
     esBind(GL_ARRAY_BUFFER, &mdlRgem.vid, rgem_vertices, sizeof(rgem_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRgem.nid, rgem_normals, sizeof(rgem_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRgem.cid, rgem_colors, sizeof(rgem_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlRgem.iid, rgem_indices, sizeof(rgem_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlRgem.iid, rgem_indices, sizeof(rgem_indices), GL_STATIC_DRAW);
 
     // ***** BIND LBOOST *****
     esBind(GL_ARRAY_BUFFER, &mdlLboost.vid, lboost_vertices, sizeof(lboost_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLboost.nid, lboost_normals, sizeof(lboost_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLboost.cid, lboost_colors, sizeof(lboost_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlLboost.iid, lboost_indices, sizeof(lboost_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlLboost.iid, lboost_indices, sizeof(lboost_indices), GL_STATIC_DRAW);
 
     // ***** BIND MBOOST *****
     esBind(GL_ARRAY_BUFFER, &mdlMboost.vid, mboost_vertices, sizeof(mboost_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMboost.nid, mboost_normals, sizeof(mboost_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMboost.cid, mboost_colors, sizeof(mboost_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlMboost.iid, mboost_indices, sizeof(mboost_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlMboost.iid, mboost_indices, sizeof(mboost_indices), GL_STATIC_DRAW);
 
     // ***** BIND RBOOST *****
     esBind(GL_ARRAY_BUFFER, &mdlRboost.vid, rboost_vertices, sizeof(rboost_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRboost.nid, rboost_normals, sizeof(rboost_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRboost.cid, rboost_colors, sizeof(rboost_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlRboost.iid, rboost_indices, sizeof(rboost_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlRboost.iid, rboost_indices, sizeof(rboost_indices), GL_STATIC_DRAW);
 
     // ***** BIND LBOARDER *****
     esBind(GL_ARRAY_BUFFER, &mdlLboarder.vid, lboarder_vertices, sizeof(lboarder_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLboarder.nid, lboarder_normals, sizeof(lboarder_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlLboarder.cid, lboarder_colors, sizeof(lboarder_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlLboarder.iid, lboarder_indices, sizeof(lboarder_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlLboarder.iid, lboarder_indices, sizeof(lboarder_indices), GL_STATIC_DRAW);
 
     // ***** BIND MBOARDER *****
     esBind(GL_ARRAY_BUFFER, &mdlMboarder.vid, mboarder_vertices, sizeof(mboarder_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMboarder.nid, mboarder_normals, sizeof(mboarder_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlMboarder.cid, mboarder_colors, sizeof(mboarder_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlMboarder.iid, mboarder_indices, sizeof(mboarder_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlMboarder.iid, mboarder_indices, sizeof(mboarder_indices), GL_STATIC_DRAW);
 
     // ***** BIND RBOARDER *****
     esBind(GL_ARRAY_BUFFER, &mdlRboarder.vid, rboarder_vertices, sizeof(rboarder_vertices), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRboarder.nid, rboarder_normals, sizeof(rboarder_normals), GL_STATIC_DRAW);
     esBind(GL_ARRAY_BUFFER, &mdlRboarder.cid, rboarder_colors, sizeof(rboarder_colors), GL_STATIC_DRAW);
-    esBind(GL_ARRAY_BUFFER, &mdlRboarder.iid, rboarder_indices, sizeof(rboarder_indices), GL_STATIC_DRAW);
+    esBind(GL_ELEMENT_ARRAY_BUFFER, &mdlRboarder.iid, rboarder_indices, sizeof(rboarder_indices), GL_STATIC_DRAW);
 
 //*************************************
 // compile & link shader programs
