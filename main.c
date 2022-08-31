@@ -902,7 +902,7 @@ int main(int argc, char** argv)
 {
     // help
     printf("Snowboarder, A simple snowboarding game.\n");
-    printf("James William Fletcher (james@voxdsp.com)\n\n");
+    printf("James William Fletcher (github.com/mrbid)\n\n");
     printf("Use your keyboard arrow keys to move from left to right.\n\n");
 
     // init glfw
