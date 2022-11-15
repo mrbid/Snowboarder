@@ -147,7 +147,6 @@ void rTunnel()
 {
     bindstate = 0;
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &view.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -177,7 +176,6 @@ void rDead(f32 z)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -207,7 +205,6 @@ void rCountDown(f32 z, uint c)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -274,7 +271,6 @@ void rSlick(f32 z, uint x)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -356,7 +352,6 @@ void rGem(f32 z, uint x)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -438,7 +433,6 @@ void rBoost(f32 z, uint x)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
     glUniform1f(opacity_id, 1.0f);
 
@@ -523,7 +517,6 @@ void rBoarder(f32 z, uint x, f32 r)
 
     mMul(&modelview, &model, &view);
 
-    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniformMatrix4fv(modelview_id, 1, GL_FALSE, (f32*) &modelview.m[0][0]);
 
     if(po < 1.0f)
@@ -1064,6 +1057,7 @@ int main(int argc, char** argv)
     glEnable(GL_DEPTH_TEST);
     glClearColor(0.0, 0.0, 0.0, 0.0);
     shadeLambert3(&position_id, &projection_id, &modelview_id, &lightpos_id, &normal_id, &color_id, &opacity_id);
+    glUniformMatrix4fv(projection_id, 1, GL_FALSE, (f32*) &projection.m[0][0]);
     glUniform3f(lightpos_id, lightpos.x, lightpos.y, lightpos.z);
 
 //*************************************
