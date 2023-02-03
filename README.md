@@ -18,6 +18,11 @@ https://youtu.be/qV6TNY7SgIU
 
 ---
 
+### Web
+https://mrbid.github.io/snowboarder/
+
+---
+
 ### Snapcraft / Software Center
 https://snapcraft.io/snowboarder
 
