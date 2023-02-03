@@ -20,6 +20,7 @@ https://youtu.be/qV6TNY7SgIU
 
 ### Web
 https://mrbid.github.io/snowboarder/
+*(controls are left and right click)*
 
 ---
 
