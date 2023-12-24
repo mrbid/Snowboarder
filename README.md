@@ -3,7 +3,7 @@ A simple 3D snowboarding game.
 
 [![Snowboarder Game Screenshot](https://dashboard.snapcraft.io/site_media/appmedia/2021/12/Screenshot_2021-12-21_06-31-22.png)](https://www.youtube.com/watch?v=qV6TNY7SgIU "Snowboarder Game Video")
 
-This has been superceeded by the latest version at: https://notabug.org/Vandarin/Snowboarder
+This has been superceeded by the latest version at: https://github.com/mrbid/NotABug-Mirror/tree/main/Snowboarder
 
 ### How to play
 
